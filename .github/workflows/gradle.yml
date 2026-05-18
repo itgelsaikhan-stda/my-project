@@ -17,7 +17,10 @@ jobs:
       matrix:
       os: [ubuntu-latest, windows-latest, macos-latest]
     runs-on: ${{ matrix.os }}
+<<<<<<< HEAD
 
+=======
+>>>>>>> ce98e0b0d4a606c0e52717b287f1f9bd5b3f2e4c
     
     steps:
     - uses: actions/checkout@v2
